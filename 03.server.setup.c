@@ -36,5 +36,8 @@ int main(int argc, char **argv) {
 		printf("Error accepting connection\n");
 		exit(1);
 	}
+
+	printf("Successfully accepted a client\n");
+
 	return 1;
 }
